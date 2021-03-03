@@ -4,3 +4,28 @@
     box-sizing: border-box;
 }
 
+header .main-menu{
+    margin: 30px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+}
+
+.main-menu>div.main{
+    margin-right: 30px;
+    float: left;
+}
+
+.main-menu>.second-nav{
+    float: right;
+}
+
+
+.main-menu li{
+    margin: 15px 0px;
+    display: inline-block;
+
+}
+
+
+
