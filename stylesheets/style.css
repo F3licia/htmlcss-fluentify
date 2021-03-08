@@ -40,12 +40,9 @@ button.green{
     text-align: right;
     position: fixed;
     bottom:0%;
-    right:2%;
+    right:12%;
     z-index: 2;
 }
-
-
-
 
 /*stile header-*/
 
@@ -89,17 +86,23 @@ button.green{
 .container-hero{
     background-color: #0c325a;
     overflow: hidden;
-
-
 }
 
 .hero>.text{
+    color: white;
+    font-size: 20px;
     background-color: transparent;
-    width: 600px;
+    
+    width: 500px;
     height: 100%;
     padding: 200px 0;
     z-index: 1;
 }
+
+    .hero .text h1{
+        margin:30px 0;
+    }
+
 
 .overlay{
     height: 90%;
@@ -114,7 +117,6 @@ button.green{
     background-repeat: no-repeat;
 }
 
-
  .gray{
     padding: 20px;
     text-align: center;
@@ -123,15 +125,12 @@ button.green{
     background-color: #d3d3d3;
 }
 
-
-.gray h3{
-    margin: 5px;
-}
-
+    .gray h3{
+        margin: 5px;
+    }
 
 
 /*----sezione-2---------------------------*/
-
 
 
 .col2,.col3{
@@ -141,7 +140,6 @@ button.green{
     margin: 40px 0px;
     overflow: hidden;
 }
-
 
 
 /*------*/
@@ -169,8 +167,6 @@ button.green{
 }
 
 
-
-
 .row .col3>.text{
     text-align: center;
     position: relative;
@@ -182,7 +178,6 @@ button.green{
 .col3>.text>hr{
     margin: 10px 130px 10px 130px;
 }
-
 
 
 .col2{
@@ -207,12 +202,44 @@ button.green{
 }
 
 
+
 .footer{
-    height: 200px;
     background-color: #d3d3d3;
 }
 
+.footer .row>*{
+    padding-top: 50px;
+    padding-bottom: 50px;;
+  
+}
 
+.footer .mini-box{
+    display: inline-flex;
+    vertical-align: middle;
+    float:right;
+}
+
+
+.footer .mini-box:first-child{
+    float: left;
+
+}
+
+.footer .button-footer{
+    margin-left: 15px;
+    padding: 20px 5px;
+    line-height: 20px ;
+    vertical-align: middle
+}
+
+    
+ select{
+     padding: 0 20px;
+     background-color: transparent;
+     border:none;
+    border-bottom: 1px solid gray;
+
+    }
 
 
 
